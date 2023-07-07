@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+}
+.manu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+}
+.manu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.items{
+    margin-right: 20px;
+    display: flex;
+    cursor: pointer;
+}
+.items:hover{
+    color: tomato;
+}
+.o{
+    color: tomato;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(255, 187, 0);
+
+}
+.btn-contect{
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: tomato;
+    margin-left: 10px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./image/—Pngtree—circle\ with\ a\ yellow\ gradient_5004117.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+}
+    
+.main-text{
+    margin-bottom: 20px;
+}
+
+.image-container{
+    max-width: 400px;
+    margin-right: -200px; 
+}
