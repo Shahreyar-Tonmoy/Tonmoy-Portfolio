@@ -13,6 +13,12 @@
     
     
 }
+.profile-title{
+    cursor: pointer;
+}
+.profile-title:hover{
+    color: tomato;
+}
 .manu{
     display: flex;
     list-style: none;
@@ -37,7 +43,7 @@
     color: white;
 }
 .navbar{
-    background-color: rgb(240, 212, 217);
+    background-color: #97CECE; 
 
 }
 .btn-contect{
@@ -52,10 +58,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url(./image/—Pngtree—circle\ with\ a\ yellow\ gradient_5004117.png);
+    background-image: url(./image/v1069-024.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 470px;
+    background-size: 700px;
+}
+.image-container{
+    max-width: 400px;
+    margin-right: -200px; 
 }
     
 .main-text{
@@ -64,7 +74,7 @@
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: rgb(240, 212, 217);
+    background-color: #97CECE;
     margin: 50px 0px;
    
 }
