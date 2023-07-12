@@ -6,6 +6,9 @@
     font-family: 'Public Sans', sans-serif;
     
 }
+.body{
+    flex-wrap: wrap;
+}
 .manu-container{
     display: flex;
     align-items: center;
@@ -69,6 +72,7 @@
     position: relative;
     top: 150px;
     background-size: 700px;
+    flex-wrap: wrap;
 }
 .image-container{
     max-width: 400px;
@@ -86,6 +90,7 @@ main section{
     border-radius: 10px;
     background-color: #97CECE;
     margin: 50px 0px;
+    flex-wrap: wrap;
    
 }
 .text-style{
@@ -106,6 +111,7 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .about-info{
     text-align: center;
@@ -117,6 +123,7 @@ main{
     display: flex;
     gap: 25px;
     margin: 150px;
+    flex-wrap: wrap;
     
     
 }
@@ -164,6 +171,7 @@ footer{
     margin-top: 100px;
     text-align: left;
     align-items: center;
+    flex-wrap: wrap;
 }
 .section-colume p{
     font-size: 16px;
